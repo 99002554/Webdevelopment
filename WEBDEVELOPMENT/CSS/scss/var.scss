@@ -1,0 +1,10 @@
+$bgcolor: red;
+$color:yellow;
+
+p{
+    background-color: $bgcolor;
+    color: $color;
+}
+h1{
+    color: $color;
+}

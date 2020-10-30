@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" >
+    
+    body :first-child{
+            letter-spacing: 5px;    
+    }
+
+    p :first-of-type{
+        color: blue;
+    }
+
+    div :last-child{
+            background-color: purple;
+    }
+
+    p:last-of-type{
+        color: green;
+    }
+
+    body h1:nth-of-type(1){
+        text-transform:uppercase;
+    }
+    /*p,h1,h2{
+            color: black;
+    }
+    .myclass{
+            font-style: italic;
+            letter-spacing: 3px;
+    }
+    
+    #header{
+            background-color: wheat;
+    }
+       
+    h2.myclass{
+        letter-spacing: 5px;
+        text-decoration: thistle;
+    }   
+       
+       
+    div p{
+       color: blue;
+    }
+
+    div>p{
+        text-decoration: underline;
+    }
+    */
+            
+    </style>
+
+</head>
+<body>
+    <!-- <p id="myid">This is a paragraph -1 with myid</p>
+    <p>This is paragraph-2 welcome</p>
+    <h1>This is a header </h1>
+    <h1 id="header">This is a header with id</h1> -->
+    <p> Inside p</p> 
+    <p class="myclass">Inside P with class</p>
+     <h1>hello world</h1> 
+     <h1 id="header" class="myclass" >Inside h1 with class</h1> 
+     <h2>Inside H2</h2> 
+     <h2 class="myclass">Inside h2</h2> 
+     <div> 
+         <h1>h1 Inside div</h1> 
+         <p>p child of div</p> 
+         <p>second child of div</p> 
+         <section> <h1>h1 Inside section</h1> 
+            <p>p child of section</p>
+         </section> 
+    </div>
+
+</body>
+</html>
