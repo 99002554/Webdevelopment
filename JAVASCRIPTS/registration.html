@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var username = prompt('Enter Name','Name');
+        var unamearray=['Ram','Suraj'];
+        document.write(unamearray)
+        len=unamearray.length
+        for(var i=0;i<len;i++)
+        {
+            if (username==unamearray[i])
+            {
+                alert(' Welcome registered user '+username );
+                var flag=1;
+                break;
+            }            
+        }
+       
+        if(flag!=1)
+        {   
+            unamearray.push(username);
+            alert('Welcome , we have registered '+username +'as our new user');
+            document.write("Updated list:<br>"+unamearray);
+        }
+        </script>
+</head>
+<body>
+
+</body> 
+</html>

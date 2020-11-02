@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function storeName(){
+            username=document.getElementById("username").value;
+            sessionStorage.setItem('uname',username);
+            sessionStorage.setItem('message','have a great day');
+            document.myform.submit();
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend align="left">Student Details</legend>
+
+        <table border="1">
+           
+    <form action="trial.html"  name="myform">
+
+    <tr>
+        <td>Enter Name</td>
+        <td><input type="text" id="username" placeholder="Enter Name"/><br/> </td> 
+    </tr>
+
+   
+    <tr>
+        <td><input type="button" value="Save" onclick='storeName()'/></td>
+    </tr>
+        <div id="myid"></div>
+    </form>
+</table>
+</fieldset>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
